@@ -1,0 +1,33 @@
+@use 'base'; /* use the style, variables from base.scss */ 
+
+.featured-product {
+    background-color: blue;
+}
+
+/* shared style */
+%message-shared {
+    border: 1px solid red; 
+    padding: 10px; 
+    font-size: 18px;
+    color: pink;
+    background-color: black;
+}
+
+.message { // message style will have all the styles from message-shared 
+    @extend %message-shared; 
+}
+
+.error{
+    @extend %message-shared;
+    background-color: red;
+    color: white;
+}
+
+.success {
+    @extend %message-shared;
+    background-color: green;
+}
+
+#sports {
+    width: 600px / 960px * 100%;
+}

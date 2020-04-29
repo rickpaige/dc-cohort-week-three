@@ -1,0 +1,42 @@
+.page-background {
+    background-color: yellow;
+    font-size: 20px;
+    color: purple;
+}
+
+/* .list-item {
+    background-color: green;
+    color: white; 
+}*/
+
+/* styles applied to the HTML element of type ul li */
+ul li {
+    background-color: purple;
+    color: white
+
+}
+
+.menu li {
+    background-color: orange;
+    color: blue;
+}
+
+#menu li {
+    background-color: pink;
+    color: red; 
+}
+
+#art-style {
+    margin: 50px
+}
+
+#pic1 {
+    width: 100px; 
+    height: 100px;
+    margin: 50px; 
+}
+
+#pic2 {
+    width: 200px;
+    height: 200px; 
+}

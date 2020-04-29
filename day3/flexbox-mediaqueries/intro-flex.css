@@ -1,0 +1,14 @@
+.container {
+    background-color: green;
+    width: 400px; 
+    height: 400px; 
+    display: flex; /* by default flex direction is row */
+    flex-direction: column;
+}
+
+.container div {
+    width: 100px; 
+    height: 50px; 
+    background-color: yellow; 
+    margin: 10px; 
+}

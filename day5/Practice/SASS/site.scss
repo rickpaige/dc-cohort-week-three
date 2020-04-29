@@ -1,0 +1,20 @@
+$primary-color: red;
+$secondary-color: yellow;
+
+body {
+    background-color: $primary-color;
+}
+
+div {
+    background-color: $primary-color;
+}
+
+.featured-product {
+    color: yellow;
+}
+
+ul {
+    li {
+        background-color: purple;
+    }
+}

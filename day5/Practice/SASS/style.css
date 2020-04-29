@@ -1,0 +1,37 @@
+body {
+  color: orange;
+  background-color: green;
+}
+
+ul {
+  color: white;
+}
+
+/* use the style, variables from base.scss */
+.featured-product {
+  background-color: blue;
+}
+
+/* shared style */
+.success, .error, .message {
+  border: 1px solid red;
+  padding: 10px;
+  font-size: 18px;
+  color: pink;
+  background-color: black;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+.success {
+  background-color: green;
+}
+
+#sports {
+  width: 62.5%;
+}
+
+/*# sourceMappingURL=style.css.map */
